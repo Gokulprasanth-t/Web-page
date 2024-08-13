@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(252,252,252);
+    color: balck;
+}
+
+header{
+    background-color:#37a2e4;
+    padding:20px;
+    color: red;
+}
+
+nav{
+   padding-top: 20px;
+   text-align: right; 
+   font-size: 20px;
+}
+nav ul{
+    list-style-type: none;
+    justify-content: right;
+}
+
+nav ul li{
+    display: inline;
+    padding-right: 10px;
+    
+}
+
+nav ul li a{
+    color: rgb(232, 138, 110);
+    text-decoration: none;  
+    border-radius: 10px; 
+}
+
+nav ul li a:hover{
+    background-color:cornsilk ;
+    color:black;
+}
+
+#banner{
+    text-align: center;
+    background-image: linear-gradient(to bottom,
+    rgba(86, 210, 232, 0.246)0%,
+    rgba(241, 235, 235, 0.8)280%
+    ),
+    url(images/img1.jpg);
+    background-color: rgb(237, 237, 222);
+    background-size: cover;
+    background-position: center;
+    padding: 250px;
+    text-decoration: none;
+
+}
+
+#banner h1{
+    font-size: 40px;
+    color: black;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#banner p{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+.cta{
+    background-color: red;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius:25px;
+    display: inline-block;
+    opacity:0.75;
+}
+
+#causes{
+    background-color: #edf2ce;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#causes h2{
+    font-size: 46px;
+    padding: 30px;
+    color: red;
+}
+
+.cause{
+    display: inline-block;
+    width: 300px;
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: white;
+}
+
+.card-image{
+    width: 250px;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.cause h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: red;
+    
+}
+#about{
+    text-align: center;
+    background-color: rgb(220, 241, 246);
+    padding: 50px 200px;
+}
+#about h2{
+    font-size: 46px;
+    padding: 30px;
+    color: red;
+}
+
+#about p{
+    padding: 0px 200px;
+}
+
+form{
+    padding: 10px 300px;
+    text-align: center;
+}      
+        
+  
+footer{
+    text-align: center;
+    background-color: rgb(241, 238, 250);
+    padding: 20px;
+    width: 100%
+}
